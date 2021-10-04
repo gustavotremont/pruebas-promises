@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img {
+            width: 300px;
+            height: 300px;
+        }
+        div {
+            background-color: antiquewhite;
+        }
+    </style>
+    <script src="script.js"></script>
+</head>
+<body>
+    <section>
+        <label for="user">Escribe tu Usar de GitHub</label>
+        <input type="text" name="user" id="user">
+        <button onclick="pintarUsuario(document.getElementById('user'))">Aceptar</button>
+    </section>
+    <section id="gallery"></section>
+</body>
+</html>
